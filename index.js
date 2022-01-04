@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-app.get('/', (req, res) => res.send('Bot is running on WebServer'));
+app.get('/', (req, res) => res.send('Bot is running on Discord Server'));
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
 //----------Important Packages----------//
@@ -16,7 +16,7 @@ const {
     ServerID
 } = require("./config.json")
 const activities = [
-    "with Monochromish [Bot Dev]",
+    "with ARAAN SHEIKH",
     "with commands",
     "[prefix]help",
     "with wumpus"
@@ -116,8 +116,8 @@ client.on("message", async message => {
         .setTitle('FAQ')
         .addField('`How to use commands`', 'to use a command, type [prefix] [command name]')
         .addField('`Why are there bugs in this bot`', 'This bot is currently in beta mode, if you come across a bug, please report the bug to the bot dev')
-        .addField('`Who is the bot dev`', 'Monochromish is the owner of this bot, 500315184510795819 <= ID')
-        .addField('`How do i report a bug`', 'It is simple, just message the bug to this ID => 500315184510795819')
+        .addField('`Who is the bot dev`', 'ARAAN SHEIKH is the owner of this bot, 875768640320962650 <= ID')
+        .addField('`How do i report a bug`', 'It is simple, just message the bug to this ID => 875768640320962650')
         .setColor('RANDOM')
         .setTimestamp()
         const pages = [
